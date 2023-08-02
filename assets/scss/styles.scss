@@ -273,7 +273,6 @@ img{
     }
 }
 
-
 /*========== ABOUT ==========*/
 .about{
     &__data{
@@ -334,14 +333,14 @@ img{
         align-self: center;
         margin-bottom: var(--mb-2);
     }
-    &__name, &__preci{
+    &__name, &__price{
         font-weight: var(--font-semi-bold);
         color: var(--title-color);
     }
     &__name{
         font-size: var(--normal-font-size);
     }
-    &__detail, &__preci{
+    &__detail, &__price{
         font-size: var(--small-font-size);
     }
     &__detail{
